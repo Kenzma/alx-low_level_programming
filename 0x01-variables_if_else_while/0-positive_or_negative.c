@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Determine if a random is positive,negative or zero
+ * main - Determines if a number is positive, negative or zero.
  *
- * Return: 0 on success
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -15,9 +15,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is positve\n", n);
 	}
-	else if (n == 0)
+	else if (n ==0)
 	{
 		printf("%d is zero\n", n);
 	}
