@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	int pass(100);
-	int i, sum, ni;
+	int pass[100];
+	int i, sum, n;
 
 	sum = 0;
 
